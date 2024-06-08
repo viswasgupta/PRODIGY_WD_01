@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #home, #about, #services, #contact {
+            padding-left: 20px;
+        }
+
+        .logo {
+            color: blue;
+        }
+
+        .logo span {
+            color: orange;
+        }
+
+        #home h1,
+        #home h3{
+            color: black;
+        }
+
+        .highlight span {
+            color: blue;
+        }
+
+        .highlight span span {
+            color: orange;
+        }
+
+        #home h1 {
+            font-size: 3em;
+        }
+
+        #home h3 {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Care<span>Connect</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="surgical">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <h1 class="highlight">Welcome to <span>Care<span>Connect</span></span></h1>
+        <h3>Bridging Health and Compassion.</h3>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="about.jpg" width="150px" height="30px" alt="About Us">
+        <p>We offer a wide range of precision-engineered instruments and supplies, designed to meet the needs of healthcare professionals and ensure the highest standards of patient care. Shop with confidence and experience unparalleled service and reliability.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h2> Wide Range of Products</h2>
+                <img src="service1.png" width="150px" height="30px" alt="Wide Range of Surgical Products">
+                <p>From scalpels to sutures, explore our extensive catalog of high-quality surgical instruments and supplies, carefully curated to support diverse medical procedures</p>
+            </div>
+            <div class="service-item">
+                <h2> Expert Customer Support</h2>
+                <img src="service2.jpg" width="150px" height="30px" alt="Expert Customer Support">
+                <p>Our knowledgeable and friendly customer service team is available to assist you with product inquiries, order tracking, and technical support, ensuring a seamless shopping experience.</p>
+            </div>
+            <div class="service-item">
+                <h2> Customized Solutions</h2>
+                <img src="service3.jpg" width="150px" height="30px" alt="Customized Solutions">
+                <p>We offer personalized recommendations and customized surgical kits tailored to meet the specific needs of your practice or facility.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <img src="contact.png" width="150px" height="30px" alt="Contact Us">
+        <h3>How to reach you.</h3>
+        <p>Mail Id: viswasgupta777@gmail.com</p>
+        <p> Address: Vishakapatnam, Maddilapalem</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
